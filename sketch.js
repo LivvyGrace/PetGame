@@ -99,10 +99,10 @@ function feedDog(){
     FeedTime:hour()
   })*/
     
-  /*database.ref('/').update({
+  database.ref('/').update({
     Food:foodObj.getFoodStock(),
     FeedTime:hour()
-  })*/
+  })
    
   database.ref('/').update({
     Food:foodObj.getFoodStock,
